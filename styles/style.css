@@ -242,10 +242,14 @@ recordarte cómo configurar los estilos de los elementos*/
   color: #f2f2f2;
   display: flex;
   justify-content: space-between;
+  min-height: 300px;
 }
 
 .footer_column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -257,7 +261,7 @@ recordarte cómo configurar los estilos de los elementos*/
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 16px auto;
+  margin: 16px 0;
 }
 
 .footer_column-heading {
