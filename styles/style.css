@@ -51,6 +51,11 @@
   color: #2f80ed;
 }
 
+.header__subtite_link:hover {
+  color: #185eb9;
+  cursor: pointer;
+}
+
 .header__main-ilustration {
   position: absolute;
   right: 0;
@@ -258,7 +263,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
-  margin-left: 48 px;
+  margin-left: 48px;
 }
 
 .feynman {
@@ -299,6 +304,11 @@
   top: 50%;
   right: 0;
   z-index: 30;
+}
+
+.feynman__link:hover {
+  color: #185eb9;
+  cursor: pointer;
 }
 
 .feynman__image {
@@ -394,6 +404,10 @@
   height: 38px;
 }
 
+.resources_logo:hover {
+  border: solid 1px #1f1f1f;
+}
+
 .resources_logo-img {
   width: 270px;
   height: 38px;
@@ -453,4 +467,8 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer_column-link:hover {
+  color: #2f80ed;
 }
