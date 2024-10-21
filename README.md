@@ -1,4 +1,4 @@
-[Ver proyecto completado](https://carlogutierrezmau.github.io/Aprender-a-aprender/)
+[Ver proyecto completado](https://carlogutierrezmau.github.io/Aprender-a-apreder/)
 
 # Aprender a aprender
 
