@@ -1,0 +1,58 @@
+.footer {
+  padding: 60px 120px 40px;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  min-height: 300px;
+}
+
+.footer_column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  height: 35px;
+  width: 183px;
+}
+
+.footer_author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 16px 0;
+}
+
+.footer_column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer_list {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.footer_social-icons {
+  position: relative;
+
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.footer_column-link {
+  text-decoration: none;
+  color: #f2f2f2;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer_column-link:hover {
+  color: #2f80ed;
+}

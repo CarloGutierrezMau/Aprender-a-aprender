@@ -1,0 +1,16 @@
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -124px;
+  animation-name: mezclas;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}

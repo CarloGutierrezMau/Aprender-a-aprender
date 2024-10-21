@@ -1,0 +1,84 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 100;
+}
+
+.header__title {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+  margin: 0 0 0 64px;
+  align-self: center;
+  z-index: 90;
+  width: 730px;
+}
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  z-index: 90;
+}
+
+.header__subtite_link {
+  display: block;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__subtite_link:hover {
+  color: #185eb9;
+  cursor: pointer;
+}
+
+.header__main-ilustration {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 608px;
+  width: 756px;
+  z-index: 10;
+}
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  transform: rotate(-15deg);
+  animation-name: mezclas;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mezclas {
+  0% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(165deg);
+  }
+  100% {
+    transform: rotate(345deg);
+  }
+}
