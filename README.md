@@ -1,5 +1,3 @@
-Ver primer brief https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/WEB_sprint_2/ES/Web_Brief_Sprint_2_ES.pdf
-ver segundo brief https://practicum-content.s3.us-west-1.amazonaws.com/new-markets/WEB_sprint_3/ES/Web_Brief_Sprint_3_ESP.pdf
 [Ver proyecto completado](https://carlogutierrezmau.github.io/Aprender-a-aprender/)
 
 # Aprender a aprender
